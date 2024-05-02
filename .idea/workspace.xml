@@ -5,10 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b73a56f1-e40b-4a73-a48d-74689a7e6b00" name="Changes" comment="Initialize web server project">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/configuration/SocketIoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/configuration/SocketIoServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/model/ProjectMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/service/implementation/DefaultProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/utility/ProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/utility/ProjectMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/utility/SocketIoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/components/Button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/components/Input/Input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/components/TextEditor/TextEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/components/TextEditor/TextEditor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/pages/EditorPage/EditorPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/pages/EditorPage/EditorPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/pages/MainPage/MainPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupmind-web-server/src/pages/MainPage/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-application-server/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-application-server/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/GroupmindApplicationServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/java/by/ustsinovich/groupmind/GroupmindApplicationServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-application-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-application-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-web-server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-web-server/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-web-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-web-server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-web-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-web-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-web-server/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-web-server/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-web-server/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-web-server/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-web-server/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-web-server/src/vite-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupmind-web-server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/groupmind-web-server/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +56,52 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="groupmind-application-server" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="groupmind-application-server" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="groupmind-application-server" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JvmLoggingSettingsStorage">
+    <option name="loggerId" value="Slf4j" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -49,34 +117,92 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.Build groupmind-application-server.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.GroupmindApplicationServerApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.13&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/Maksim/AppData/Roaming/JetBrains/IntelliJIdea2024.1/node/node-v18.15.0-win-x64/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Maksim\\Desktop\\groupmind\\groupmind-web-server\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build groupmind-application-server.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.GroupmindApplicationServerApplication.executor": "Run",
+    "git-widget-placeholder": "development",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "18.15.0",
+    "javascript.nodejs.core.library.typings.version": "18.15.13",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/Maksim/AppData/Roaming/JetBrains/IntelliJIdea2024.1/node/node-v18.15.0-win-x64/node",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.dev -- --host.executor": "Run",
+    "npm.dev --host.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.preview.executor": "Run",
+    "npm.run.executor": "Run",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\Users\\Maksim\\Desktop\\groupmind\\groupmind-web-server\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maksim\Desktop\groupmind\groupmind-web-server\src" />
+      <recent name="C:\Users\Maksim\Desktop\groupmind\groupmind-application-server\src\main\resources\static\scripts" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.ustsinovich.groupmind.socket" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev -- --host">
+    <configuration name="GroupmindApplicationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="groupmind-application-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.ustsinovich.groupmind.GroupmindApplicationServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev -- --host" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/groupmind-web-server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <arguments value="-- --host" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="preview" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/groupmind-web-server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev -- --host" />
+      <item itemvalue="npm.preview" />
+      <item itemvalue="Spring Boot.GroupmindApplicationServerApplication" />
+    </list>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,6 +224,17 @@
       <workItem from="1714283104963" duration="54000" />
       <workItem from="1714283168011" duration="2133000" />
       <workItem from="1714292907696" duration="735000" />
+      <workItem from="1714293978869" duration="983000" />
+      <workItem from="1714308526604" duration="1054000" />
+      <workItem from="1714322803230" duration="3768000" />
+      <workItem from="1714469253013" duration="32000" />
+      <workItem from="1714469398129" duration="125000" />
+      <workItem from="1714541894939" duration="17344000" />
+      <workItem from="1714562919018" duration="6328000" />
+      <workItem from="1714629910001" duration="9748000" />
+      <workItem from="1714653230900" duration="20000" />
+      <workItem from="1714657534135" duration="15229000" />
+      <workItem from="1714673169092" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -142,7 +279,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="114" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="39" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -154,5 +298,9 @@
     <MESSAGE value="Initialize application server project" />
     <MESSAGE value="Initialize web server project" />
     <option name="LAST_COMMIT_MESSAGE" value="Initialize web server project" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
