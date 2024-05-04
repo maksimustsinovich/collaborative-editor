@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/groupmind.iml" filepath="$PROJECT_DIR$/groupmind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/groupmind-web-server.iml" filepath="$PROJECT_DIR$/groupmind-web-server.iml" />
     </modules>
   </component>
 </project>
