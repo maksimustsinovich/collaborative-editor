@@ -1,5 +1,11 @@
 function DocumentsPage() {
-    return null;
+
+    return (
+        <>
+            <h1>DocumentsPage</h1>
+        </>
+    );
+
 }
 
 export default DocumentsPage;
