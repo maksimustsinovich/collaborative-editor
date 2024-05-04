@@ -1,12 +1,12 @@
 import "./App.css"
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import MainPage from "./pages/MainPage.tsx";
-import SignInPage from "./pages/SignInPage.tsx";
-import SignUpPage from "./pages/SignUpPage.tsx";
-import ProfilePage from "./pages/ProfilePage.tsx";
-import MessagesPage from "./pages/MessagesPage.tsx";
-import DocumentsPage from "./pages/DocumentsPage.tsx";
-import NotFoundPage from "./pages/NotFoundPage.tsx";
+import MainPage from "./pages/MainPage/MainPage.tsx";
+import SignInPage from "./pages/SignInPage/SignInPage.tsx";
+import SignUpPage from "./pages/SignUpPage/SignUpPage.tsx";
+import ProfilePage from "./pages/ProfilePage/ProfilePage.tsx";
+import MessagesPage from "./pages/MessagesPage/MessagesPage.tsx";
+import DocumentsPage from "./pages/DocumentsPage/DocumentsPage.tsx";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage.tsx";
 
 function App() {
 
