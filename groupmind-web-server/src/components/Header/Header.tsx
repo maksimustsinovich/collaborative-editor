@@ -1,8 +1,16 @@
+import {Container, Navbar} from "react-bootstrap";
+
 function Header() {
 
     return (
         <>
-            <header> HEADER </header>
+            <header>
+                <Navbar>
+                    <Container>
+
+                    </Container>
+                </Navbar>
+            </header>
         </>
     )
 
