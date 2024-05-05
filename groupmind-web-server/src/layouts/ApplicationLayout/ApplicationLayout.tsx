@@ -6,9 +6,7 @@ function ApplicationLayout() {
     return (
         <>
             <Navigation/>
-            <main>
-                <Outlet/>
-            </main>
+            <Outlet/>
         </>
     )
 

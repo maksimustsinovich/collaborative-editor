@@ -7,7 +7,9 @@ function BaseLayout() {
     return (
         <>
             <Header/>
-            <Outlet/>
+            <main>
+                <Outlet/>
+            </main>
             <Footer/>
         </>
     )
