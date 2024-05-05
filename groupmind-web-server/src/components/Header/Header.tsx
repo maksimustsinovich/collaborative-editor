@@ -5,7 +5,7 @@ function Header() {
     return (
         <>
             <header>
-                <Navbar expand={"lg"} bg={"dark"} data-bs-theme={"dark"} sticky="top" className={""}>
+                <Navbar expand={"lg"} bg={"dark"} data-bs-theme={"dark"} sticky="top">
                     <Container>
                         <Navbar.Brand href={"/"}>
                             Groupmind
