@@ -1,5 +1,6 @@
 import {Outlet} from "react-router-dom";
-import {Col, Container, Nav, Navbar, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
+import SideNavigation from "../../components/SideNavigation/SideNavigation.tsx";
 
 function ApplicationLayout() {
 
@@ -7,22 +8,8 @@ function ApplicationLayout() {
         <>
             <Container fluid style={{padding: "0 0 0 0", height: '100%'}}>
                 <Row style={{height: '100%', width: '100%'}}>
-                    <Col xs={2} className={"bg-dark"} style={{height:'100%'}}>
-                        <Navbar expand={"s"} data-bs-theme={"dark"}>
-                            <Container>
-                                <Nav>
-                                    <Nav.Link href={"/app/"}>
-                                        Profile
-                                    </Nav.Link>
-                                    <Nav.Link href={"/app/messages"}>
-                                        Messages
-                                    </Nav.Link>
-                                    <Nav.Link href={"/app/documents"}>
-                                        Documents
-                                    </Nav.Link>
-                                </Nav>
-                            </Container>
-                        </Navbar>
+                    <Col xs={5} lg={2} className={"bg-dark"} style={{height:'100%'}}>
+                        <SideNavigation/>
                     </Col>
                     <Col>
                         <Outlet/>
