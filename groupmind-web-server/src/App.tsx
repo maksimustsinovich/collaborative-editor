@@ -16,11 +16,11 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route element={<BaseLayout/>}>
-                    <Route path={"/"} element={<MainPage/>}/>
+                    <Route index element={<MainPage/>}/>
                     <Route path={"login"} element={<SignInPage/>}/>
                     <Route path={"register"} element={<SignUpPage/>}/>
                     <Route path={"app"} element={<ApplicationLayout/>}>
-                        <Route path={"profile"} element={<ProfilePage/>}/>
+                        <Route index element={<ProfilePage/>}/>
                         <Route path={"messages"} element={<MessagesPage/>}/>
                         <Route path={"documents"} element={<DocumentsPage/>}/>
                     </Route>
