@@ -5,11 +5,11 @@ function ApplicationLayout() {
 
     return (
         <>
-            <Container fluid style={{padding: '0'}}>
-                <Row>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={2}>
-                        <Navbar expand={"s"} bg={"dark"} data-bs-theme={"dark"}>
-                            <Container style={{height: "100%"}}>
+            <Container fluid style={{padding: "0 0 0 0", height: '100%'}}>
+                <Row style={{height: '100%', width: '100%'}}>
+                    <Col xs={2} className={"bg-dark"} style={{height:'100%'}}>
+                        <Navbar expand={"s"} data-bs-theme={"dark"}>
+                            <Container>
                                 <Nav>
                                     <Nav.Link href={"/app/"}>
                                         Profile
