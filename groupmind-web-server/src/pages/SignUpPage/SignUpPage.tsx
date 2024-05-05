@@ -1,8 +1,15 @@
+import {Container} from "react-bootstrap";
+import RegistrationForm from "../../Forms/RegistrationForm/RegistrationForm.tsx";
+
 function SignUpPage() {
 
     return (
         <>
-            <h1>SignUpPage</h1>
+            <Container className="d-flex justify-content-center align-items-center" style={{height: "100%"}}>
+                <Container style={{width: "30%"}}>
+                    <RegistrationForm/>
+                </Container>
+            </Container>
         </>
     )
 
