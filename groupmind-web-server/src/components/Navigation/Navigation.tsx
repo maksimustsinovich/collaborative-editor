@@ -1,8 +1,9 @@
+import "./Navigation.css";
+
 function Navigation() {
 
     return (
         <>
-
         </>
     )
 
