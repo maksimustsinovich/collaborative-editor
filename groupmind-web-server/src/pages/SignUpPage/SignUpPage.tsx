@@ -1,5 +1,5 @@
 import {Container} from "react-bootstrap";
-import RegistrationForm from "../../Forms/RegistrationForm/RegistrationForm.tsx";
+import RegistrationForm from "../../forms/RegistrationForm/RegistrationForm.tsx";
 
 function SignUpPage() {
 

@@ -1,4 +1,4 @@
-import LoginForm from "../../Forms/LoginForm/LoginForm.tsx";
+import LoginForm from "../../forms/LoginForm/LoginForm.tsx";
 import {Container} from "react-bootstrap";
 
 function SignInPage() {
